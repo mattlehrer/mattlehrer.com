@@ -23,20 +23,20 @@ body .bg {
 }
 
 body .bg .content {
-  margin: 0 10% 0 0;
+  margin: 0 8% 0 0;
   padding-left: 15px;
 }
 
 h1 {
   font-weight: normal;
-  padding: 0.5em 0 0 0;
+  padding: 0.5em 0 0.5em 0;
   margin: 0px;
-  font-size: 7rem;
+  font-size: 6rem;
 }
 
 p {
-  font-size: 4rem;
-  margin: 10px 15% 10px 0;
+  font-size: 3rem;
+  margin: 10px 10% 20px 0;
   padding: 2px 0;
 }
 
@@ -51,18 +51,6 @@ p {
     max-width: 720px;
     margin: 0 auto 0 5%;
   }
-
-  body .bg .content p {
-    margin: 5px 20% 10px 0;
-  }
-
-  h1 {
-    font-size: 48px;
-  }
-
-  p {
-    font-size: 24px;
-  }
 }
 
 @media (min-width: 1200px) {
@@ -71,7 +59,13 @@ p {
     margin: 0 auto 0 5%;
   }
 
-  body .bg .content p {
+  h1 {
+    padding: 0.5em 0 0.25em 0;
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.25rem;
     margin: 5px 30% 10px 0;
   }
 }
