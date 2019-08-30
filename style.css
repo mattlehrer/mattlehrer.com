@@ -1,21 +1,66 @@
 body {
   margin: 0px;
-  background-color: white;
-  color: black; }
-  body a {
-    color: orange;
-    text-decoration: none; }
-    body a:hover {
-      color: yellow; }
+  background-color: black;
+  color: rgb(230, 230, 230);
+}
+
+body a {
+  color: rgb(0, 162, 255);
+  text-decoration: none;
+}
+
+body a:hover {
+  color: rgb(0, 162, 255);
+}
+
+body .bg {
+  min-height: 700px;
+  background: url("head.png") no-repeat;
+  background-position: 125% 2%;
+  background-size: 50%;
+}
+
+body .content {
+  margin: 0 15% 0 0;
+  padding-left: 15px;
+}
+
+body .content h1 {
+  font-weight: normal;
+  padding: 0.5em 0 0 0;
+  margin: 0px;
+  font-size: 3em;
+}
+
+body .content p {
+  font-size: 1.25em;
+  margin: 5px 10% 10px 0;
+  padding: 0px;
+}
+
+@media (min-width: 576px) {
   body .content {
-    margin: 0 0 0 auto;
-    padding-left: 50px; }
-    body .content h1 {
-      font-weight: normal;
-      padding: 25px 0 0;
-      margin: 0px;
-      font-size: 130px; }
-    body .content p {
-      font-size: 16px;
-      margin: 5px 0 10px 10px;
-      padding: 0px; }
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  body .content {
+    max-width: 720px
+  }
+
+  body .content p {
+    margin: 5px 30% 10px 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body .content {
+    max-width: 1140px;
+    margin: 0 auto 0 5%;
+  }
+
+  body .content p {
+    margin: 5px 40% 10px 0;
+  }
+}
