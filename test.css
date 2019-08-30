@@ -31,34 +31,34 @@ body .content h1 {
   font-weight: normal;
   padding: 0.5em 0 0 0;
   margin: 0px;
-  font-size: 4rem;
+  font-size: 6rem;
 }
 
 .t1 {
-  font-size: 29px;
+  font-size: 2rem;
 }
 
 .t2 {
-  font-size: 2em;
+  font-size: 2.5rem;
 }
 
 .t3 {
-  font-size: 3em;
+  font-size: 3rem;
 }
 
 .t4 {
-  font-size: 1.25rem;
-  color: red;
+  font-size: 3.5rem;
+  color: blue;
 }
 
 .t5 {
-  font-size: 1.5rem;
+  font-size: 4rem;
 }
 
 .t6 {
-  font-size: 1.75rem;
+  font-size: 4.5rem;
 }
 
 .t7 {
-  font-size: 2rem;
+  font-size: 5rem;
 }
