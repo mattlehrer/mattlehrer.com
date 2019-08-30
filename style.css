@@ -2,6 +2,8 @@ body {
   margin: 0px;
   background-color: black;
   color: rgb(230, 230, 230);
+  text-rendering: optimizeLegibility;
+  font-family: serif
 }
 
 body a {
@@ -20,48 +22,56 @@ body .bg {
   background-size: 50%;
 }
 
-body .content {
+body .bg .content {
   margin: 0 10% 0 0;
   padding-left: 15px;
 }
 
-body .content h1 {
+h1 {
   font-weight: normal;
   padding: 0.5em 0 0 0;
   margin: 0px;
-  font-size: 48px;
+  font-size: 7rem;
 }
 
-body .content p {
-  font-size: 24px;
-  margin: 5px 15% 10px 0;
-  padding: 0px;
+p {
+  font-size: 4rem;
+  margin: 10px 15% 10px 0;
+  padding: 2px 0;
 }
 
 @media (min-width: 576px) {
-  body .content {
+  body .bg .content {
     max-width: 540px;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  p {
+    font-size: 24px;
   }
 }
 
 @media (min-width: 768px) {
-  body .content {
+  body .bg .content {
     max-width: 720px;
     margin: 0 auto 0 5%;
   }
 
-  body .content p {
+  body .bg .content p {
     margin: 5px 20% 10px 0;
   }
 }
 
 @media (min-width: 1200px) {
-  body .content {
+  body .bg .content {
     max-width: 1140px;
     margin: 0 auto 0 5%;
   }
 
-  body .content p {
+  body .bg .content p {
     margin: 5px 30% 10px 0;
   }
 }
